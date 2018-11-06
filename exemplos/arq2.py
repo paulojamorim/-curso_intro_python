@@ -1,0 +1,11 @@
+# -*- coding: UTF-8 -*-
+
+frutas = ["Abacate","Manga", "Maçã", "Abacaxi", "Caju"]
+
+f = open("frutas.txt","r")
+lines = f.readlines()
+
+for l in lines:
+    print(l)
+
+f.close()
