@@ -1,7 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-frutas = ["Abacate","Manga", "Maçã", "Abacaxi", "Caju"]
-
 f = open("frutas.txt","r")
 lines = f.readlines()
 
